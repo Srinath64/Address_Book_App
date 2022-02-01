@@ -9,7 +9,7 @@ class Contact {
   }
 
   get name() {
-    return this._name;
+    return this._name;  
   }
   set name(name) {
     let nameRegex = RegExp("^[A-Z]{1}[A-Za-z\\s]{2,}$");
